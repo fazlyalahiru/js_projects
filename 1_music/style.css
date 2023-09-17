@@ -1,0 +1,51 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(./images/bg3.jpg);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.key {
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.703);
+    cursor: pointer;
+}
+
+.key kbd {
+    font-size: 44px;
+}
+
+.text-color {
+    color: orange;
+}
+
+.playing {
+    border: 2px solid rgb(0, 0, 0);
+    transition: transform 0.3s;
+    transform: scale(1.1);
+}
+
+.heading-text {
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    font-size: 25px;
+}

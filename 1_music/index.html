@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  
+    <h4 class="heading-text" >Press any of these keys on your keyboard</h4>
+ 
+  <div class="container">
+   
+    <div data-key="65" class="key">
+      <kbd>A</kbd> <br>
+      <span class="text-color">Clap</span>
+    </div>
+    <div data-key="83" class="key">
+      <kbd>S</kbd> <br>
+      <span class="text-color">Boom</span>
+    </div>
+    <div data-key="68" class="key">
+      <kbd>D</kbd> <br>
+      <span class="text-color">Rider</span>
+    </div>
+    <div data-key="70" class="key">
+      <kbd>F</kbd> <br>
+      <span class="text-color">Snare</span>
+    </div>
+    <div data-key="71" class="key">
+      <kbd>G</kbd> <br>
+      <span class="text-color">Tom</span>
+    </div>
+  </div>
+  <audio data-key="65" src="./sounds/clap.mp3"></audio>
+  <audio data-key="83" src="./sounds/boom.mp3"></audio>
+  <audio data-key="68" src="./sounds/piano.mp3"></audio>
+  <audio data-key="70" src="./sounds/snare.mp3"></audio>
+  <audio data-key="71" src="./sounds/tom.mp3"></audio>
+  <!-- javascript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
