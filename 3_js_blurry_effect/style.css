@@ -1,7 +1,7 @@
 :root {
     --base: #69EE11;
     --spacing: 10px;
-    --blur: 10px;
+    --blur: 5px;
 }
 h2{
     font-size: 30px;
