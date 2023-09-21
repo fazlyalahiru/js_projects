@@ -1,7 +1,7 @@
 const secondHand = document.querySelector('.second-hand');
 const minHand = document.querySelector('.min-hand');
 const hourHand = document.querySelector('.hour-hand');
-
+// core js codes
 const setDate = () => {
     const now = new Date();
     const seconds = now.getSeconds();
